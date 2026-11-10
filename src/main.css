@@ -1,0 +1,35 @@
+
+
+
+
+:root {
+    --body-height: 1000px;
+
+    --large-padding: 25px;
+    --medium-padding: 15px;
+    --small-padding: 5px;
+
+    --large-gap: 25px;
+    --medium-gap: 15px;
+    --small-gap: 5px;
+}
+
+body {
+    display: flex;
+    height: var(--body-height);
+    background-color: #030303;
+    flex-direction: column;
+    align-items: center;
+    padding: var(--large-padding);
+    gap: var(--large-gap);
+
+    /* Debug */
+    border: 2px solid red;
+}
+
+body * {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+}
