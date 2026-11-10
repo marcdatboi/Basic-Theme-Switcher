@@ -1,0 +1,15 @@
+
+
+.dark {
+    --background: rgb(40, 40, 40);
+    --header: rgb(220, 220, 220);
+    --paragraph: rgb(210, 210, 210);
+    --button: rgb(40, 120, 200);
+}
+
+.light {
+    --background: rgb(230, 230, 230);
+    --header: rgb(35, 35, 35);
+    --paragraph: rgb(20, 20, 20);
+    --button: rgb(40, 120, 200);
+}
