@@ -5,6 +5,7 @@
     --header: rgb(220, 220, 220);
     --paragraph: rgb(210, 210, 210);
     --button: rgb(40, 120, 200);
+    --hovered: rgb(25, 70, 120);
 }
 
 .light {
