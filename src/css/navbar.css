@@ -1,0 +1,17 @@
+
+
+
+
+
+
+#navbar ul {
+    list-style-type: none;
+    
+    border: solid red 2px;
+}
+
+
+#navbar li {
+    float: inline-start;
+    margin: 0.5rem;
+}
