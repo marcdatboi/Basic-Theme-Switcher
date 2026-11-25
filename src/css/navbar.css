@@ -2,20 +2,18 @@
 
 
 
-#navbar {
-    border: solid blue 2px;
-}
-
-#navbar ul {
+#navbar  {
+    border: solid var(--border) 2px;
+    padding: var(--small-gap);
+    border-radius: var(--small-gap);
     display: flex;
     list-style-type: none;
-    border: solid red 2px;
-    margin: 0px;
-    padding: 0px;
 }
 
-
 #navbar li {
-    margin: var(--small-gap);
-    border: solid purple 2px;
+    padding: var(--medium-gap);
+    background-color: var(--button);
+    font-size: large;
+    border-left: solid var(--divider) 1.5px;
+    border-right: solid var(--divider) 1.5px;
 }

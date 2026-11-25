@@ -17,7 +17,7 @@
 body {
     display: flex;
     height: var(--body-height);
-    background-color: #030303;
+    background-color: var(--background);
     flex-direction: column;
     align-items: center;
     padding: var(--large-padding);
@@ -31,5 +31,12 @@ body * {
     margin: 0;
     box-sizing: border-box;
     font-family: monospace;
-    color: white;
+}
+
+p, li{
+    color: var(--paragraph)
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--header)
 }
