@@ -2,16 +2,20 @@
 
 
 
-
+#navbar {
+    border: solid blue 2px;
+}
 
 #navbar ul {
+    display: flex;
     list-style-type: none;
-    
     border: solid red 2px;
+    margin: 0px;
+    padding: 0px;
 }
 
 
 #navbar li {
-    float: inline-start;
-    margin: 0.5rem;
+    margin: var(--small-gap);
+    border: solid purple 2px;
 }
